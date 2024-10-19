@@ -27,7 +27,7 @@ export default function Home() {
         preTitle="Watch a video"
         title="Who We Are"
       >
-        Let's get to know more about PT. Giga Berkah Teknologi
+        Let&apos;s get to know more about PT. Giga Berkah Teknologi
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" />

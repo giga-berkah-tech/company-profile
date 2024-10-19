@@ -7,13 +7,13 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitOneImg from "../../public/img/mobile-dev.png";
+import benefitTwoImg from "../../public/img/web-dev.png";
 
 const benefitOne = {
   title: "Web Development",
   desc: "The website development that we offer is customization. We tailor every website detail to your brand and specific business needs, so that your website is truly unique and different from the others.",
-  image: benefitOneImg,
+  image: benefitTwoImg,
   bullets: [
     {
       title: "Frontend",
@@ -36,7 +36,7 @@ const benefitOne = {
 const benefitTwo = {
   title: "Mobile Development",
   desc: "The mobile application development that we carry out covers the entire process, from planning, design, development, to launch and maintenance. We ensure your application is ready to use and continuously updated according to market needs.",
-  image: benefitTwoImg,
+  image: benefitOneImg,
   bullets: [
     {
       title: "Android",
