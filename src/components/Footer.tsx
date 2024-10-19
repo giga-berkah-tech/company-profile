@@ -32,7 +32,7 @@ export function Footer() {
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
              Your partner information technology in digital transformation.
              <div className="mt-3 font-semibold">
-             #Let's work and innovate through applications
+             #Let&apos;s work and innovate through applications
              </div>
             </div>
 
