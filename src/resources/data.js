@@ -9,6 +9,7 @@ import {
 
 import benefitOneImg from "../../public/img/mobile-dev.png";
 import benefitTwoImg from "../../public/img/web-dev.png";
+import { Bars3BottomLeftIcon, Bars3BottomRightIcon, Bars3Icon, BeakerIcon, CircleStackIcon, EyeDropperIcon, WrenchIcon } from "@heroicons/react/16/solid";
 
 const benefitOne = {
   title: "Web Development",
@@ -18,17 +19,17 @@ const benefitOne = {
     {
       title: "Frontend",
       desc: "VueJs, ReactJS, NextJs",
-      icon: <FaceSmileIcon />,
+      icon: <BeakerIcon />,
     },
     {
       title: "Backend",
       desc: "Laravel, NodeJS, Python",
-      icon: <ChartBarSquareIcon />,
+      icon: <BeakerIcon />,
     },
     {
       title: "Utilities",
       desc: "Responsive, Security, Performance, Analytics, SEO, etc.",  
-      icon: <CursorArrowRaysIcon />,
+      icon: <BeakerIcon />,
     },
   ],
 };
@@ -41,17 +42,17 @@ const benefitTwo = {
     {
       title: "Android",
       desc: "Java, Kotlin",
-      icon: <DevicePhoneMobileIcon />,
+      icon: <BeakerIcon />,
     },
     {
       title: "IOS",
       desc: "Swift",
-      icon: <AdjustmentsHorizontalIcon />,
+      icon: <BeakerIcon />,
     },
     {
       title: "Hybrid",
       desc: "Flutter, React Native",
-      icon: <SunIcon />,
+      icon: <BeakerIcon />,
     },
   ],
 };

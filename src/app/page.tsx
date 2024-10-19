@@ -24,10 +24,10 @@ export default function Home() {
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
-        preTitle="Watch a video"
-        title="Who We Are"
+        preTitle="Our Vision & Mission"
+        title="What Is Our Vision and Mission ?"
       >
-        Let&apos;s get to know more about PT. Giga Berkah Teknologi
+        We have several visions and missions embedded in our company
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" />
