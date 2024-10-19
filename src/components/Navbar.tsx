@@ -17,7 +17,7 @@ export const Navbar = () => {
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
         <Link href="/">
-          <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-white">
+          <span className="flex items-center space-x-2 text-2xl font-medium dark:text-white">
               {/* <span>
                 <Image
                   src="/img/logo.svg"
@@ -27,7 +27,7 @@ export const Navbar = () => {
                   className="w-8"
                 />
               </span> */}
-            <span>PT. Giga Berkah Teknologi</span>
+            <span>PT. Giga Berkah <span className="text-indigo-500">Teknologi</span></span>
           </span>
         </Link>
 

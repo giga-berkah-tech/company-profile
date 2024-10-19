@@ -16,7 +16,7 @@ export function Footer() {
               {" "}
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
+                className="flex items-center space-x-2 text-2xl font-medium dark:text-gray-100"
               >
                 {/* <Image
                   src="/img/logo.svg"
@@ -25,7 +25,7 @@ export function Footer() {
                   height="32"
                   className="w-8"
                 /> */}
-                <span>PT. Giga Berkah Teknologi</span>
+                <span>PT. Giga Berkah <span className="text-indigo-500">Teknologi</span></span>
               </Link>
             </div>
 

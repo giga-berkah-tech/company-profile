@@ -8,6 +8,7 @@ import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 
 import { benefitOne, benefitTwo } from "@/resources/data";
+import VisionMission from "@/components/VisionMission";
 export default function Home() {
   return (
     <Container>
@@ -30,7 +31,9 @@ export default function Home() {
         We have several visions and missions embedded in our company
       </SectionTitle>
 
-      <Video videoId="fZ0D0cnR88E" />
+      <VisionMission/>
+
+      {/* <Video videoId="fZ0D0cnR88E" /> */}
 
       <SectionTitle
         preTitle="Testimonials"
