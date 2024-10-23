@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 import { Container } from "@/components/Container";
 import { MapPinIcon } from "@heroicons/react/16/solid";
@@ -25,50 +25,53 @@ export function Footer() {
                   height="32"
                   className="w-8"
                 /> */}
-                <span>PT. Giga Berkah <span className="text-indigo-500">Teknologi</span></span>
+                <span>
+                  PT. Giga Berkah{" "}
+                  <span className="text-indigo-500">Teknologi</span>
+                </span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-             Your partner information technology in digital transformation.
-             <div className="mt-3 font-semibold">
-             #Let&apos;s work and innovate through applications
-             </div>
+              Your partner information technology in digital transformation.
+              <div className="mt-3 font-semibold">
+                #Let&apos;s work and innovate through applications
+              </div>
             </div>
 
             <div className="mt-6">
-            <div className="text-indigo-500 font-bold text-lg">Follow us</div>
-            <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <a
-                href="https://twitter.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
-                <span className="sr-only">Twitter</span>
-                <Twitter />
-              </a>
-              <a
-                href="https://facebook.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
-                <span className="sr-only">Facebook</span>
-                <Facebook />
-              </a>
-              <a
-                href="https://instagram.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
-                <span className="sr-only">Instagram</span>
-                <Instagram />
-              </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener">
-                <span className="sr-only">Linkedin</span>
-                <Linkedin />
-              </a>
+              <div className="text-indigo-500 font-bold text-lg">Follow us</div>
+              <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
+                <a
+                  href="https://twitter.com/web3templates"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <span className="sr-only">Twitter</span>
+                  <Twitter />
+                </a>
+                <a
+                  href="https://facebook.com/web3templates"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <span className="sr-only">Facebook</span>
+                  <Facebook />
+                </a>
+                <a
+                  href="https://instagram.com/web3templates"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <span className="sr-only">Instagram</span>
+                  <Instagram />
+                </a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener">
+                  <span className="sr-only">Linkedin</span>
+                  <Linkedin />
+                </a>
+              </div>
             </div>
-          </div>
 
             {/* <div className="mt-5">
               <a
@@ -115,7 +118,10 @@ export function Footer() {
           </div>
           <div className="">
             <div className="text-lg font-bold text-indigo-500">Location</div>
-            <div>Jl.Ikan Piranha Perumahan A.Yani Inside Kav.13, RT.04/RW.03, Kota Malang, Jawa Timur 16255</div>
+            <div>
+              Jl.Ikan Piranha Perumahan A.Yani Inside Kav.13, RT.04/RW.03, Kota
+              Malang, Jawa Timur 16255
+            </div>
           </div>
         </div>
 
