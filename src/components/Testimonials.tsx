@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 import { Container } from "@/components/Container";
 
@@ -12,41 +12,23 @@ export const Testimonials = () => {
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-             -
-            </p>
+            <p className="text-2xl leading-normal ">-</p>
 
-            <Avatar
-              image={userOneImg}
-              name="User 1"
-              title="-"
-            />
+            <Avatar image={userOneImg} name="User 1" title="-" />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-             -
-            </p>
+            <p className="text-2xl leading-normal ">-</p>
 
-            <Avatar
-              image={userTwoImg}
-              name="User 2"
-              title="-"
-            />
+            <Avatar image={userTwoImg} name="User 2" title="-" />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-             -
-            </p>
+            <p className="text-2xl leading-normal ">-</p>
 
-            <Avatar
-              image={userThreeImg}
-              name="User 3"
-              title="-"
-            />
+            <Avatar image={userThreeImg} name="User 3" title="-" />
           </div>
         </div>
       </div>
@@ -64,12 +46,12 @@ function Avatar(props: Readonly<AvatarProps>) {
   return (
     <div className="flex items-center mt-8 space-x-3">
       <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-        <Image
-          src={props.image}
+        <img
+          src={props.image.src}
           width="40"
           height="40"
           alt="Avatar"
-          placeholder="blur"
+          // placeholder="blur"
         />
       </div>
       <div>
