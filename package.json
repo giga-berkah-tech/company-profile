@@ -1,7 +1,7 @@
 {
-  "name": "nextly-template",
+  "name": "giga-berkah-company-profile",
   "version": "2.0.0",
-  "description": "Nextly Landing Page Template",
+  "description": "PT. Giga Berkah Teknologi - Company Profile",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/web3templates/nextly-template"
+    "url": "https://github.com/giga-berkah-tech/company-profile"
   },
   "keywords": [
     "nextjs",
@@ -23,7 +23,7 @@
   "dependencies": {
     "@headlessui/react": "^2.0.3",
     "@heroicons/react": "^2.1.3",
-    "next": "14.2.3",
+    "next": "^14.2.16",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
