@@ -1,3 +1,5 @@
+"use client";
+
 import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
@@ -6,39 +8,47 @@ import { Video } from "@/components/Video";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
-
 import { benefitOne, benefitTwo } from "@/resources/data";
+
+import { useTranslation } from "next-export-i18n";
+
 export default function Home() {
+  const { t } = useTranslation();
   return (
     <Container>
       <div className="mt-24"></div>
       <Hero />
-      <SectionTitle preTitle="Our Services" title=" What Services We Offer ?">
-        We develop IT solutions that are tailored to the scale and complexity of
-        your business needs
+      <SectionTitle
+        preTitle={t("home.services.preTitle")}
+        title={t("home.services.title")}
+      >
+        {t("home.services.description")}
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      {/* <SectionTitle preTitle="Watch a video" title="Who We Are">
-        Let's get to know more about PT. Giga Berkah Teknologi
+      {/* <SectionTitle 
+        preTitle={t('whoWeAre.preTitle')} 
+        title={t('whoWeAre.title')}
+      >
+        {t('whoWeAre.description')}
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" /> */}
 
       {/* <SectionTitle
-        preTitle="Testimonials"
-        title="Here's what our customers said"
+        preTitle={t('testimonials.preTitle')}
+        title={t('testimonials.title')}
       >
       </SectionTitle> */}
 
       {/* <Testimonials /> */}
 
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        {/* Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests. */}
-      </SectionTitle>
+      <SectionTitle
+        preTitle={t("home.faq.preTitle")}
+        title={t("home.faq.title")}
+      ></SectionTitle>
 
       <Faq />
       <Cta />

@@ -1,6 +1,8 @@
 // import Image from "next/image";
+"use client";
 import React from "react";
 import { Container } from "@/components/Container";
+import { useTranslation } from "next-export-i18n";
 
 interface BenefitsProps {
   imgPos?: "left" | "right";
@@ -17,6 +19,7 @@ interface BenefitsProps {
   };
 }
 export const Benefits = (props: Readonly<BenefitsProps>) => {
+  const { t } = useTranslation();
   const { data } = props;
   return (
     <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
@@ -46,18 +49,18 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
         <div>
           <div className="flex flex-col w-full mt-4">
             <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
-              {data.title}
+              {t(data.title)}
             </h3>
 
             <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
-              {data.desc}
+              {t(data.desc)}
             </p>
           </div>
 
           <div className="w-full mt-5">
             {data.bullets.map((item, index) => (
-              <Benefit key={index} title={item.title} icon={item.icon}>
-                {item.desc}
+              <Benefit key={index} title={t(item.title)} icon={item.icon}>
+                {t(item.desc)}
               </Benefit>
             ))}
           </div>

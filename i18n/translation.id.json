@@ -1,0 +1,111 @@
+{
+  "navbar": {
+    "product": "Produk",
+    "services": "Layanan Kami",
+    "company": "Perusahaan",
+    "blog": "Blog",
+    "logoAlt": "PT. Giga Berkah Teknologi",
+    "companyName1": "PT. Giga Berkah",
+    "companyName2": "Teknologi",
+    "getStarted": "Mulai",
+    "toggleMenu": "Buka Menu"
+  },
+  "home": {
+    "services": {
+      "preTitle": "Layanan Kami",
+      "title": "Apa yang Kami Tawarkan?",
+      "description": "Kami mengembangkan solusi IT yang disesuaikan dengan skala dan kebutuhan bisnis Anda"
+    },
+    "whoWeAre": {
+      "preTitle": "Tonton Video",
+      "title": "Tentang Kami",
+      "description": "Yuk kenali lebih jauh PT. Giga Berkah Teknologi"
+    },
+    "testimonials": {
+      "preTitle": "Testimoni",
+      "title": "Apa Kata Pelanggan Kami"
+    },
+    "faq": {
+      "preTitle": "FAQ",
+      "title": "Pertanyaan yang Sering Diajukan"
+    }
+  },
+  "hero": {
+    "title": "Jasa Pembuatan Web dan Mobile App (ios/Android) dari Malang!",
+    "description": "Di Giga Berkah Tech, tim Developer kami yang berdedikasi siap mengubah ide Anda menjadi kenyataan. Mulai dari aplikasi web yang dinamis hingga aplikasi mobile yang canggih, kami menghadirkan teknologi yang mendorong pertumbuhan dan kesuksesan bisnis Anda.",
+    "primaryButton": "Hubungi Kami",
+    "secondaryButton": "Lihat di GitHub",
+    "imageAlt": "Layanan Pengembangan Flutter, Reactjs dan Nextjs Terjangkau"
+  },
+
+  "benefits": {
+    "web": {
+      "title": "Web Development",
+      "desc": "Di Giga Berkah Teknologi, kami menawarkan layanan pengembangan web yang sepenuhnya disesuaikan untuk merek dan kebutuhan bisnis Anda. Kami memberikan sentuhan unik pada setiap detail, memastikan bahwa website Anda tidak hanya tampil menonjol tetapi juga selaras dengan identitas dan tujuan perusahaan Anda.",
+      "bullets": {
+        "frontend": {
+          "title": "Frontend Dev",
+          "desc": "Dengan framework modern seperti React, Next.js, dan Vue.js, kami menciptakan antarmuka pengguna yang dinamis dan menarik."
+        },
+        "backend": {
+          "title": "Backend Dev",
+          "desc": "Pengembangan backend kami menggunakan Laravel, Node.js, dan Python, memastikan fondasi yang andal dan scalable untuk situs Anda."
+        },
+        "features": {
+          "title": "Fitur Utama",
+          "desc": "Dengan Giga Berkah Teknologi, Anda mendapatkan lebih dari sekedar website. Kami fokus pada desain responsif, keamanan, performa, analitik, SEO, dan lebih banyak lagi untuk solusi yang menyeluruh. Teknologi handalan kami React Js & Next Js"
+        }
+      }
+    },
+    "mobile": {
+      "title": "Mobile App Development",
+      "desc": "Giga Berkah Teknologi menyediakan layanan pengembangan aplikasi mobile dari tahap perencanaan dan desain hingga peluncuran dan dukungan berkelanjutan. Kami memastikan aplikasi Anda siap untuk pasar dan terus berkembang untuk tetap kompetitif.",
+      "bullets": {
+        "flutter": {
+          "title": "Flutter Development",
+          "desc": "Keahlian kami di Flutter memungkinkan kami membuat aplikasi cross-platform berkualitas tinggi untuk Android dan iOS, menggabungkan efisiensi dengan performa yang andal."
+        },
+        "android": {
+          "title": "Android Native",
+          "desc": "Dengan Giga Berkah Teknologi, Anda juga bisa memilih pengembangan Android native menggunakan Java dan Kotlin untuk pengalaman mobile yang lebih personal."
+        },
+        "ios": {
+          "title": "iOS Native",
+          "desc": "Pengembangan iOS native berbasis Swift kami memastikan pengalaman yang optimal dan mulus untuk pengguna iPhone dan iPad."
+        }
+      }
+    }
+  },
+  "faq": {
+    "what": {
+      "question": "Apa itu PT. Giga Berkah Teknologi?",
+      "answer": "PT. Giga Berkah Teknologi adalah perusahaan yang berbasis di Indonesia dan menyediakan solusi IT berkualitas tinggi, khususnya dalam pengembangan aplikasi web dan mobile. Tim kami berpengalaman dalam memberikan layanan yang disesuaikan dengan menggunakan teknologi terbaru seperti React, Next.js untuk web, dan Flutter untuk mobile. Kami juga menawarkan pengembangan native untuk Android dan iOS, serta solusi backend dengan Node.js dan Python. Kami mengutamakan kepuasan pelanggan dan terus berinovasi untuk membantu bisnis tetap kompetitif di era digital."
+    },
+    "services": {
+      "question": "Layanan apa yang ditawarkan PT. Giga Berkah Teknologi?",
+      "answer": "Layanan kami mencakup pengembangan aplikasi web dan mobile secara menyeluruh yang disesuaikan dengan kebutuhan bisnis Anda. Kami ahli dalam teknologi seperti React, Next.js, dan Flutter, serta menawarkan pengembangan native untuk Android dan iOS. Selain itu, kami menyediakan pengembangan backend menggunakan Node.js dan Python."
+    },
+    "location": {
+      "question": "Di mana lokasi PT. Giga Berkah Teknologi?",
+      "answer": "Kami berlokasi di Malang, kota pelajar yang terkenal di Indonesia, di Jl. Ikan Piranha Perumahan A.Yani Inside Kav.14, RT.04/RW.03, Kota Malang, Jawa Timur 16255. Lokasi strategis kami memudahkan untuk merekrut talenta dari universitas-universitas terkemuka di daerah ini."
+    },
+    "why": {
+      "question": "Mengapa memilih PT. Giga Berkah Teknologi?",
+      "answer": "Memilih PT. Giga Berkah Teknologi berarti Anda bekerja sama dengan perusahaan yang menghargai kualitas, inovasi, dan kepuasan pelanggan. Tim kami terdiri dari para ahli lulusan universitas ternama, dan kami berkomitmen membantu bisnis Anda mencapai potensi penuh melalui solusi IT yang mendorong efisiensi dan pertumbuhan."
+    }
+  },
+  "cta": {
+    "title": "Siap meng-akselerasi Bisnis Anda?",
+    "description": "Mari diskusikan bagaimana kami bisa membantu Anda mencapai tujuan dengan solusi teknologi kami.",
+    "button": "Hubungi Kami"
+  },
+  "notFound": {
+    "title": "Halaman Tidak Ditemukan",
+    "description": "Maaf, halaman yang Anda cari tidak tersedia.",
+    "button": "Kembali ke Beranda"
+  },
+  "metadata": {
+    "title": "PT. Giga Berkah Teknologi",
+    "description": "Perusahaan Solusi dan Layanan IT"
+  }
+}
