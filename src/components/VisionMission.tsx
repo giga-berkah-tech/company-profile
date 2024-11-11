@@ -5,8 +5,8 @@ const VisionMission = () => {
   return (
     <>
         <Container>
-            <div className='flex xl:flex-row md:flex-col sm:flex-col w-full max-w-7xl p-2 mx-auto'>
-                <div className='w-1/2 sm:w-full bg-indigo-500 rounded-lg p-10'>
+            <div className='flex xl:flex-row xs:flex-col  w-full max-w-7xl p-2 mx-auto'>
+                <div className='w-1/2 xs:w-full bg-indigo-500 rounded-lg p-10'>
                     <p className='text-3xl font-bold text-center text-white'>Vision</p>
                     <div className='mt-5 text-white'>
                         <ul className='list-disc'>
@@ -16,8 +16,8 @@ const VisionMission = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='w-10 sm:h-5'></div>
-                <div className='w-1/2 sm:w-full bg-gray-100 rounded-lg p-10'>
+                <div className='w-10 xs:h-5'></div>
+                <div className='w-1/2 xs:w-full bg-gray-100 rounded-lg p-10'>
                     <p className='text-3xl font-bold text-center'>Mission</p>
                     <div className='mt-5'>
                         <ul className='list-disc'>
