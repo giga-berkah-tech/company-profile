@@ -99,7 +99,7 @@ export default function RootLayout({
 }>) {
   return (
     <html suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-slate-100 dark:bg-slate-950`}>
         <Suspense>
           <ThemeProvider attribute="class">
             <Navbar />

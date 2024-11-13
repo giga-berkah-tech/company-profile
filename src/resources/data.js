@@ -7,8 +7,8 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/mobile-dev.png";
-import benefitTwoImg from "../../public/img/web-dev.png";
+import benefitOneImg from "../../public/img/mobile-dev.webp";
+import benefitTwoImg from "../../public/img/web-dev.webp";
 import {
   Bars3BottomLeftIcon,
   Bars3BottomRightIcon,
