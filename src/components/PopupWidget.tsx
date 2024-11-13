@@ -124,22 +124,22 @@ export function PopupWidget() {
                     We usually respond in a few hours
                   </p>
                 </div>
-                <div className="flex-grow h-full p-6 overflow-auto bg-gray-50 ">
+                <div className="flex-grow h-full p-6 overflow-auto bg-gray-50 dark:bg-slate-900">
                   {!isSubmitSuccessful && (
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
                       <input
                         type="hidden"
-                        value="YOUR_ACCESS_KEY_HERE"
+                        value="648aeae0-50dc-42bc-83de-e4f193822489"
                         {...register("apikey")}
                       />
                       <input
                         type="hidden"
-                        value={`${userName} sent a message from Nextly`}
+                        value={`${userName} sent a message from giga berkah website`}
                         {...register("subject")}
                       />
                       <input
                         type="hidden"
-                        value="Nextly Template"
+                        value="Giga Berkah Template"
                         {...register("from_name")}
                       />
                       <input
@@ -159,12 +159,12 @@ export function PopupWidget() {
                         <input
                           type="text"
                           id="full_name"
-                          placeholder="John Doe"
+                          placeholder="Donald Trump"
                           {...register("name", {
                             required: "Full name is required",
                             maxLength: 80,
                           })}
-                          className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
+                          className={`w-full px-3 py-2 text-gray-600 dark:text-gray-50 placeholder-gray-300 dark:placeholder-gray-500 bg-white dark:bg-slate-700 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring   ${
                             errors.name
                               ? "border-red-600 focus:border-red-600 ring-red-100"
                               : "border-gray-300 focus:border-indigo-600 ring-indigo-100"
@@ -195,7 +195,7 @@ export function PopupWidget() {
                             },
                           })}
                           placeholder="you@company.com"
-                          className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
+                          className={`w-full px-3 py-2 text-gray-600 dark:text-gray-50 placeholder-gray-300 dark:placeholder-gray-500 bg-white dark:bg-slate-700 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring   ${
                             errors.email
                               ? "border-red-600 focus:border-red-600 ring-red-100"
                               : "border-gray-300 focus:border-indigo-600 ring-indigo-100"
@@ -224,7 +224,7 @@ export function PopupWidget() {
                             required: "Enter your Message",
                           })}
                           placeholder="Your Message"
-                          className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md h-28 focus:outline-none focus:ring   ${
+                          className={`w-full px-3 py-2 text-gray-600 dark:text-gray-50 placeholder-gray-300 dark:placeholder-gray-500 bg-white dark:bg-slate-700 border border-gray-300 dark:border-gray-700 rounded-md h-28 focus:outline-none focus:ring   ${
                             errors.message
                               ? "border-red-600 focus:border-red-600 ring-red-100"
                               : "border-gray-300 focus:border-indigo-600 ring-indigo-100"

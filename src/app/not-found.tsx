@@ -18,7 +18,7 @@ export default function PageNotFound() {
         </p>
         <Link
           href="/"
-          className="px-4 py-2 text-md font-light text-center border rounded-md hover:bg-gray-200 dark:hover:bg-trueGray-700"
+          className="px-4 py-2 text-md font-light text-center border rounded-md hover:bg-gray-200 dark:hover:bg-gray-700"
         >
           {t("notFound.button")}
         </Link>

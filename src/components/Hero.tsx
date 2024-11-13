@@ -1,7 +1,5 @@
 "use client";
-import Image from "next/image";
-import { Container } from "./Container";
-import heroImg from "../../public/img/hero.png";
+import heroImg from "../../public/img/hero.webp";
 import { useTranslation } from "next-export-i18n";
 
 export const Hero = () => {
@@ -9,7 +7,7 @@ export const Hero = () => {
 
   return (
     <>
-      <Container className="flex flex-wrap">
+      <div className="flex flex-wrap">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="pb-4 text-2xl font-bold leading-snug tracking-tight text-indigo-800 dark:text-indigo-400  lg:leading-tight xl:leading-tight">
@@ -47,7 +45,7 @@ export const Hero = () => {
             />
           </div>
         </div>
-      </Container>
+      </div>
     </>
   );
 };

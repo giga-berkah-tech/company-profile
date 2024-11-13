@@ -10,7 +10,7 @@ export function Footer() {
   return (
     <div className="relative">
       <Container>
-        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
+        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-gray-700 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
               {" "}
@@ -50,14 +50,14 @@ export function Footer() {
                   <span className="sr-only">Twitter</span>
                   <Twitter />
                 </a>
-                {/* <a
-                  href="https://facebook.com/"
+                <a
+                  href="https://www.instagram.com/gigaberkahtech/"
                   target="_blank"
                   rel="noopener"
                 >
-                  <span className="sr-only">Facebook</span>
-                  <Facebook />
-                </a> */}
+                  <span className="sr-only">Instagram</span>
+                  <Instagram />
+                </a>
                 <a
                   href="https://github.com/giga-berkah-tech/"
                   target="_blank"
@@ -83,7 +83,7 @@ export function Footer() {
                 <Link
                   key={index}
                   href="/"
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-700"
                 >
                   {item}
                 </Link>
@@ -96,7 +96,7 @@ export function Footer() {
                 <Link
                   key={index}
                   href="/"
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-700"
                 >
                   {item}
                 </Link>

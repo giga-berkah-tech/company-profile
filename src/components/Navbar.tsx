@@ -20,8 +20,8 @@ export const Navbar = () => {
   ];
 
   return (
-    <div className="w-full fixed bg-white dark:bg-black shadow-md z-50">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
+    <div className="w-full fixed bg-opacity-75 dark:bg-opacity-75 bg-white dark:bg-slate-900 shadow-md z-50  backdrop-blur">
+      <nav className="container relative flex flex-wrap items-center justify-between px-8 py-6 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
         <LinkWithLocale href="/">
           <span className="flex items-center space-x-2 text-2xl font-medium dark:text-white">
@@ -80,7 +80,7 @@ export const Navbar = () => {
             <>
               <Disclosure.Button
                 aria-label={t("navbar.toggleMenu")}
-                className="px-2 py-1 text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
+                className="px-2 py-1 text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-gray-700"
               >
                 <svg
                   className="w-6 h-6 fill-current"

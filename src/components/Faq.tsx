@@ -8,11 +8,7 @@ import {
 } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/24/solid";
 import { getFaqData } from "@/resources/data";
-import {
-  useTranslation,
-  LanguageSwitcher,
-  LinkWithLocale,
-} from "next-export-i18n";
+import { useTranslation } from "next-export-i18n";
 
 export const Faq = () => {
   const { t } = useTranslation();
@@ -25,7 +21,7 @@ export const Faq = () => {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200">
+                  <DisclosureButton className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-gray-800 dark:text-gray-200">
                     <span>{t(item.question)}</span>
                     <ChevronUpIcon
                       className={`${
