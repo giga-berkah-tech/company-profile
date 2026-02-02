@@ -7,13 +7,11 @@ export default function PrivacyPolicy() {
 
   return (
     <Container>
-      <div className="mt-24 mb-24 space-y-12 text-slate-700 leading-relaxed">
+      <div className="mt-24 mb-24 space-y-12  leading-relaxed">
         {/* Header Section */}
         <header className="space-y-2 border-b pb-8">
-          <h1 className="text-4xl font-extrabold text-slate-900">
-            {t('privacy.title')}
-          </h1>
-          <p className="text-gray-500 font-medium">
+          <h1 className="text-4xl font-extrabold">{t('privacy.title')}</h1>
+          <p className="text-gray-600 dark:text-gray-400 font-medium">
             {t('privacy.lastUpdated')}
           </p>
         </header>
@@ -26,7 +24,7 @@ export default function PrivacyPolicy() {
 
         {/* Interpretation and Definitions */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-slate-800">
+          <h2 className="text-2xl font-bold">
             {t('privacy.interpretation.title')}
           </h2>
           <div className="space-y-4">
@@ -56,7 +54,7 @@ export default function PrivacyPolicy() {
 
         {/* Types of Data Collected */}
         <section className="space-y-8">
-          <h2 className="text-2xl font-bold text-slate-800">
+          <h2 className="text-2xl font-bold ">
             {t('privacy.collection.title')}
           </h2>
 
@@ -100,8 +98,11 @@ export default function PrivacyPolicy() {
         {/* Cookie Specifics */}
         <section className="grid md:grid-cols-3 gap-6">
           {['necessary', 'policyAcceptance', 'functionality'].map((type) => (
-            <div key={type} className="p-5 border rounded-xl bg-slate-50">
-              <h4 className="font-bold text-slate-900">
+            <div
+              key={type}
+              className="p-5 rounded-xl bg-gray-50 hover:bg-gray-100 dark:bg-gray-800"
+            >
+              <h4 className="font-bold">
                 {t(`privacy.cookies.${type}.title`)}
               </h4>
               <p className="text-xs font-mono text-blue-600 mb-2">
@@ -136,7 +137,7 @@ export default function PrivacyPolicy() {
         <section className="space-y-6">
           <h2 className="text-2xl font-bold">{t('privacy.retention.title')}</h2>
           <p>{t('privacy.retention.policy')}</p>
-          <div className="bg-blue-50 p-6 rounded-2xl space-y-4 text-sm">
+          <div className="bg-gray-50 hover:bg-gray-100 dark:bg-gray-800 p-6 rounded-2xl space-y-4 text-sm">
             <div>
               <h4 className="font-bold underline">
                 {t('privacy.retention.categories.accountInformation.title')}
@@ -168,7 +169,7 @@ export default function PrivacyPolicy() {
           </h2>
           <p>{t('privacy.deleteData.rights')}</p>
           <p>{t('privacy.deleteData.accountManagement')}</p>
-          <p className="bg-yellow-50 p-3 border-l-4 border-yellow-400 text-sm">
+          <p className="bg-gray-50 hover:bg-gray-100 dark:bg-gray-800 p-3 border-l-4 border-yellow-400 text-sm">
             <strong>Note:</strong> {t('privacy.deleteData.note')}
           </p>
         </section>

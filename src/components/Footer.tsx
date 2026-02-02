@@ -84,8 +84,8 @@ export function Footer() {
                   key={index}
                   href={
                     item.toLowerCase() === 'company'
-                      ? '#/'
-                      : `#${item.toLowerCase()}`
+                      ? '/#'
+                      : `/#${item.toLowerCase()}`
                   }
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-700"
                 >

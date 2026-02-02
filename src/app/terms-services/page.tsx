@@ -10,7 +10,9 @@ export default function Term() {
       <div className="mt-24 space-y-6">
         <h1 className="text-3xl font-bold">{t('term.title')}</h1>
 
-        <p className="text-gray-600">{t('term.lastUpdated')}</p>
+        <p className="text-gray-600 dark:text-gray-400">
+          {t('term.lastUpdated')}
+        </p>
 
         <p>{t('term.intro')}</p>
 
