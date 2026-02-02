@@ -31,7 +31,7 @@
     }
   },
   "hero": {
-    "title": "Jasa Pembuatan Web dan Mobile App (ios/Android) dari Malang!",
+    "title": "Jasa Pembuatan Web dan Mobile App (iOS/Android) dari Malang!",
     "description": "Di Giga Berkah Tech, tim Developer kami yang berdedikasi siap mengubah ide Anda menjadi kenyataan. Mulai dari aplikasi web yang dinamis hingga aplikasi mobile yang canggih, kami menghadirkan teknologi yang mendorong pertumbuhan dan kesuksesan bisnis Anda.",
     "primaryButton": "Hubungi Kami",
     "secondaryButton": "Lihat di GitHub",
@@ -107,5 +107,300 @@
   "metadata": {
     "title": "PT. Giga Berkah Teknologi",
     "description": "Perusahaan Solusi dan Layanan IT"
+  },
+  "term": {
+    "title": "Syarat dan Ketentuan",
+    "lastUpdated": "Terakhir diperbarui: 02 Februari 2026",
+    "intro": "Harap baca Syarat dan Ketentuan ini dengan saksama sebelum menggunakan Layanan kami.",
+
+    "interpretation": {
+      "title": "Interpretasi dan Definisi",
+      "subtitle1": "Interpretasi",
+      "text1": "Kata-kata dengan huruf awal kapital memiliki makna yang ditentukan berdasarkan ketentuan berikut. Definisi ini berlaku baik dalam bentuk tunggal maupun jamak.",
+      "subtitle2": "Definisi",
+      "text2": "Untuk keperluan Syarat dan Ketentuan ini:"
+    },
+
+    "definitions": {
+      "affiliate_label": "Afiliasi",
+      "country_label": "Negara",
+      "company_label": "Perusahaan",
+      "device_label": "Perangkat",
+      "service_label": "Layanan",
+      "terms_label": "Syarat dan Ketentuan",
+      "website_label": "Situs Web",
+      "you_label": "Anda",
+      "affiliate": "berarti entitas yang mengendalikan, dikendalikan oleh, atau berada di bawah kendali bersama dengan suatu pihak.",
+      "company": "mengacu pada PT Giga Berkah Teknologi, Jl. Ikan Piranha Perumahan A. Yani Inside Kav.14, RT.04/RW.03, Kota Malang.",
+      "device": "berarti perangkat apa pun yang dapat mengakses Layanan.",
+      "service": "mengacu pada Situs Web.",
+      "terms": "berarti perjanjian ini yang mengatur penggunaan Layanan.",
+      "you": "berarti individu atau badan hukum yang mengakses atau menggunakan Layanan."
+    },
+
+    "ack": {
+      "title": "Pernyataan Persetujuan",
+      "p1": "Ini adalah Syarat dan Ketentuan yang mengatur penggunaan Layanan ini serta perjanjian antara Anda dan Perusahaan. Syarat dan Ketentuan ini menetapkan hak dan kewajiban seluruh pengguna terkait penggunaan Layanan.",
+      "p2": "Akses dan penggunaan Layanan oleh Anda tergantung pada penerimaan dan kepatuhan Anda terhadap Syarat dan Ketentuan ini. Syarat dan Ketentuan ini berlaku untuk semua pengunjung, pengguna, dan pihak lain yang mengakses atau menggunakan Layanan.",
+      "p3": "Dengan mengakses atau menggunakan Layanan, Anda setuju untuk terikat dengan Syarat dan Ketentuan ini. Jika Anda tidak setuju dengan sebagian atau seluruh ketentuan, Anda tidak diperbolehkan mengakses Layanan.",
+      "p4": "Anda menyatakan bahwa Anda berusia di atas 18 tahun. Perusahaan tidak mengizinkan pengguna di bawah 18 tahun untuk menggunakan Layanan.",
+      "p5": "Akses dan penggunaan Layanan oleh Anda juga tunduk pada Kebijakan Privasi kami, yang menjelaskan bagaimana kami mengumpulkan, menggunakan, dan mengungkapkan informasi pribadi. Harap baca Kebijakan Privasi kami dengan saksama sebelum menggunakan Layanan kami."
+    },
+
+    "links": {
+      "title": "Tautan ke Situs Web Lain",
+      "p1": "Layanan kami mungkin berisi tautan ke situs web atau layanan pihak ketiga yang tidak dimiliki atau dikendalikan oleh Perusahaan.",
+      "p2": "Perusahaan tidak memiliki kendali atas, dan tidak bertanggung jawab atas, konten, kebijakan privasi, atau praktik situs web pihak ketiga mana pun. Anda mengakui dan setuju bahwa Perusahaan tidak bertanggung jawab atau berkewajiban, secara langsung maupun tidak langsung, atas kerusakan atau kerugian yang disebabkan atau diduga disebabkan oleh penggunaan atau ketergantungan pada konten, barang, atau layanan yang tersedia di atau melalui situs atau layanan tersebut.",
+      "p3": "Kami sangat menyarankan Anda membaca syarat dan ketentuan serta kebijakan privasi dari situs web atau layanan pihak ketiga yang Anda kunjungi.",
+      "socialTitle": "Tautan dari Layanan Media Sosial Pihak Ketiga",
+      "socialP1": "Layanan dapat menampilkan, menyertakan, menyediakan, atau menautkan ke konten atau layanan yang disediakan oleh Layanan Media Sosial Pihak Ketiga. Layanan Media Sosial Pihak Ketiga tidak dimiliki atau dikendalikan oleh Perusahaan, dan Perusahaan tidak mendukung atau bertanggung jawab atas layanan tersebut.",
+      "socialP2": "Anda mengakui dan setuju bahwa Perusahaan tidak bertanggung jawab atau berkewajiban, secara langsung maupun tidak langsung, atas kerusakan atau kerugian apa pun yang disebabkan oleh akses atau penggunaan Anda terhadap Layanan Media Sosial Pihak Ketiga, termasuk konten, barang, atau layanan yang tersedia melalui layanan tersebut. Penggunaan Anda terhadap Layanan Media Sosial Pihak Ketiga diatur oleh syarat dan kebijakan privasi layanan tersebut."
+    },
+
+    "termination": {
+      "title": "Penghentian",
+      "p1": "Kami dapat menghentikan atau menangguhkan akses Anda secara langsung tanpa pemberitahuan sebelumnya atau kewajiban apa pun, untuk alasan apa pun, termasuk namun tidak terbatas apabila Anda melanggar Syarat dan Ketentuan ini.",
+      "p2": "Setelah penghentian, hak Anda untuk menggunakan Layanan akan segera berakhir."
+    },
+
+    "liability": {
+      "title": "Batasan Tanggung Jawab",
+      "p1": "Terlepas dari kerugian yang mungkin Anda alami, keseluruhan tanggung jawab Perusahaan dan pemasoknya berdasarkan ketentuan apa pun serta upaya hukum eksklusif Anda akan dibatasi pada jumlah yang Anda bayarkan melalui Layanan atau 100 USD jika Anda tidak melakukan pembelian apa pun melalui Layanan.",
+      "p2": "Sejauh diizinkan oleh hukum yang berlaku, dalam keadaan apa pun Perusahaan atau pemasoknya tidak bertanggung jawab atas kerusakan khusus, insidental, tidak langsung, atau konsekuensial apa pun (termasuk, namun tidak terbatas pada, kerugian keuntungan, kehilangan data, gangguan bisnis, cedera pribadi, kehilangan privasi yang timbul dari atau terkait dengan penggunaan atau ketidakmampuan menggunakan Layanan, perangkat lunak pihak ketiga, atau perangkat keras pihak ketiga yang digunakan dengan Layanan), bahkan jika Perusahaan telah diberitahu tentang kemungkinan kerusakan tersebut.",
+      "p3": "Beberapa negara bagian tidak mengizinkan pengecualian jaminan tersirat atau batasan tanggung jawab atas kerusakan insidental atau konsekuensial, sehingga beberapa batasan di atas mungkin tidak berlaku. Dalam kasus tersebut, tanggung jawab masing-masing pihak akan dibatasi sejauh yang diizinkan oleh hukum."
+    },
+
+    "disclaimer": {
+      "title": "Penafian \"SEBAGAIMANA ADANYA\" dan \"SEBAGAIMANA TERSEDIA\"",
+      "p1": "Layanan ini diberikan kepada Anda \"SEBAGAIMANA ADANYA\" dan \"SEBAGAIMANA TERSEDIA\" dengan segala kekurangan tanpa jaminan apa pun. Sepanjang diizinkan oleh hukum yang berlaku, Perusahaan dan afiliasinya secara tegas menolak semua jaminan, baik tersurat maupun tersirat, termasuk jaminan kelayakan jual, kesesuaian untuk tujuan tertentu, hak kepemilikan, dan non-pelanggaran.",
+      "p2": "Tanpa membatasi hal tersebut, Perusahaan tidak memberikan jaminan bahwa Layanan akan memenuhi kebutuhan Anda, beroperasi tanpa gangguan, bebas dari kesalahan, atau bahwa cacat apa pun akan diperbaiki.",
+      "p3": "Beberapa yurisdiksi tidak mengizinkan pengecualian jenis jaminan tertentu, sehingga beberapa pengecualian di atas mungkin tidak berlaku untuk Anda. Namun dalam kasus tersebut, pengecualian tetap berlaku sejauh yang dapat diterapkan."
+    },
+
+    "govLaw": {
+      "title": "Hukum yang Berlaku",
+      "p1": "Hukum Negara, tidak termasuk aturan konflik hukumnya, akan mengatur Syarat ini dan penggunaan Anda atas Layanan. Penggunaan Anda terhadap Aplikasi juga dapat tunduk pada hukum lokal, nasional, atau internasional lainnya."
+    },
+
+    "dispute": {
+      "title": "Penyelesaian Sengketa",
+      "p1": "Jika Anda memiliki kekhawatiran atau sengketa terkait Layanan, Anda setuju untuk mencoba menyelesaikannya secara informal terlebih dahulu dengan menghubungi Perusahaan."
+    },
+
+    "eu": {
+      "title": "Untuk Pengguna Uni Eropa (EU)",
+      "p1": "Jika Anda adalah konsumen Uni Eropa, Anda akan mendapat manfaat dari ketentuan wajib apa pun dari hukum negara tempat Anda tinggal."
+    },
+
+    "us": {
+      "title": "Kepatuhan Hukum Amerika Serikat",
+      "p1": "Anda menyatakan dan menjamin bahwa (i) Anda tidak berada dalam negara yang dikenakan embargo oleh pemerintah Amerika Serikat atau yang ditetapkan sebagai negara pendukung terorisme, dan (ii) Anda tidak tercantum dalam daftar pihak terlarang atau dibatasi oleh pemerintah Amerika Serikat."
+    },
+
+    "severability": {
+      "title": "Keterpisahan dan Pengabaian",
+      "sub1": "Keterpisahan",
+      "p1": "Jika ada ketentuan dalam Syarat ini dianggap tidak dapat diberlakukan atau tidak sah, ketentuan tersebut akan diubah dan ditafsirkan agar mencapai tujuan ketentuan tersebut sejauh yang dimungkinkan, dan ketentuan lainnya akan tetap berlaku sepenuhnya.",
+      "sub2": "Pengabaian",
+      "p2": "Kegagalan dalam menjalankan suatu hak atau menuntut pelaksanaan kewajiban berdasarkan Syarat ini tidak akan memengaruhi kemampuan pihak tersebut untuk melakukannya di kemudian hari."
+    },
+
+    "translation": {
+      "title": "Interpretasi Terjemahan",
+      "p1": "Syarat dan Ketentuan ini mungkin telah diterjemahkan jika kami menyediakannya kepada Anda di Layanan kami. Anda setuju bahwa teks asli dalam Bahasa Inggris akan berlaku jika terjadi perselisihan."
+    },
+
+    "changes": {
+      "title": "Perubahan pada Syarat dan Ketentuan Ini",
+      "p1": "Kami berhak, atas kebijakan kami sendiri, untuk mengubah atau mengganti Syarat ini kapan saja. Jika perubahan tersebut bersifat material, kami akan berupaya memberikan pemberitahuan setidaknya 30 hari sebelum perubahan tersebut berlaku.",
+      "p2": "Dengan terus mengakses atau menggunakan Layanan setelah perubahan berlaku, Anda menyetujui Syarat yang telah direvisi. Jika Anda tidak setuju dengan Syarat baru tersebut, mohon berhenti menggunakan Layanan."
+    },
+
+    "contact": {
+      "title": "Hubungi Kami",
+      "p1": "Jika Anda memiliki pertanyaan mengenai Syarat dan Ketentuan ini, Anda dapat menghubungi kami:"
+    }
+  },
+
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "lastUpdated": "Terakhir diperbarui: 02 Februari 2026",
+    "intro": {
+      "p1": "Kebijakan Privasi ini menjelaskan kebijakan dan prosedur Kami mengenai pengumpulan, penggunaan, dan pengungkapan informasi Anda saat Anda menggunakan Layanan dan memberi tahu Anda tentang hak privasi Anda serta bagaimana hukum melindungi Anda.",
+      "p2": "Kami menggunakan Data Pribadi Anda untuk menyediakan dan meningkatkan Layanan. Dengan menggunakan Layanan, Anda menyetujui pengumpulan dan penggunaan informasi sesuai dengan Kebijakan Privasi ini. Kebijakan Privasi ini dibuat dengan bantuan Privacy Policy Generator."
+    },
+    "interpretation": {
+      "title": "Interpretasi dan Definisi",
+      "interpretationTitle": "Interpretasi",
+      "interpretationText": "Kata-kata yang huruf pertamanya dikapitalisasi memiliki makna yang didefinisikan dalam kondisi berikut. Definisi berikut akan memiliki makna yang sama terlepas dari apakah mereka muncul dalam bentuk tunggal atau jamak."
+    },
+    "definitions": {
+      "title": "Definisi",
+      "intro": "Untuk tujuan Kebijakan Privasi ini:",
+      "items": {
+        "account": "Akun berarti akun unik yang dibuat untuk Anda guna mengakses Layanan kami atau bagian dari Layanan kami.",
+        "affiliate": "Afiliasi berarti entitas yang mengendalikan, dikendalikan oleh, atau berada di bawah kendali bersama dengan suatu pihak, di mana \"kendali\" berarti kepemilikan 50% atau lebih saham, kepentingan ekuitas, atau sekuritas lain yang berhak memberikan suara untuk pemilihan direktur atau otoritas pengelola lainnya.",
+        "company": "Perusahaan (disebut sebagai \"Perusahaan\", \"Kami\", \"Kita\" atau \"Milik Kami\" dalam Kebijakan Privasi ini) mengacu pada PT Giga Berkah Teknologi, l. Ikan Piranha Perumahan A.Yani Inside Kav.14, RT.04/RW.03, Kota Malang, Jawa Timur 16255.",
+        "cookies": "Cookie adalah file kecil yang ditempatkan di komputer, perangkat seluler, atau perangkat lainnya oleh situs web, yang berisi rincian riwayat penelusuran Anda di situs web tersebut di antara banyak kegunaannya.",
+        "country": "Negara mengacu pada: Indonesia",
+        "device": "Perangkat berarti perangkat apa pun yang dapat mengakses Layanan seperti komputer, ponsel, atau tablet digital.",
+        "personalData1": "Data Pribadi (atau \"Informasi Pribadi\") adalah informasi apa pun yang berkaitan dengan individu yang teridentifikasi atau dapat diidentifikasi.",
+        "personalData2": "Kami menggunakan istilah \"Data Pribadi\" dan \"Informasi Pribadi\" secara bergantian kecuali jika undang-undang menggunakan istilah tertentu.",
+        "service": "Layanan mengacu pada Situs Web.",
+        "serviceProvider": "Penyedia Layanan berarti setiap orang pribadi atau badan hukum yang memproses data atas nama Perusahaan. Ini mengacu pada perusahaan pihak ketiga atau individu yang dipekerjakan oleh Perusahaan untuk memfasilitasi Layanan, menyediakan Layanan atas nama Perusahaan, melakukan layanan yang terkait dengan Layanan, atau membantu Perusahaan dalam menganalisis bagaimana Layanan digunakan.",
+        "usageData": "Data Penggunaan mengacu pada data yang dikumpulkan secara otomatis, baik yang dihasilkan oleh penggunaan Layanan atau dari infrastruktur Layanan itu sendiri (misalnya, durasi kunjungan halaman).",
+        "website": "Situs Web mengacu pada Giga Berkah, dapat diakses dari https://company.aplikasiku.web.id/.",
+        "you": "Anda berarti individu yang mengakses atau menggunakan Layanan, atau perusahaan, atau badan hukum lainnya atas nama individu tersebut yang mengakses atau menggunakan Layanan, sebagaimana berlaku."
+      }
+    },
+    "collection": {
+      "title": "Pengumpulan dan Penggunaan Data Pribadi Anda",
+      "typesTitle": "Jenis Data yang Dikumpulkan",
+      "personalData": {
+        "title": "Data Pribadi",
+        "p1": "Saat menggunakan Layanan Kami, Kami mungkin meminta Anda untuk memberikan informasi identitas pribadi tertentu kepada Kami yang dapat digunakan untuk menghubungi atau mengidentifikasi Anda. Informasi identitas pribadi mungkin termasuk, tetapi tidak terbatas pada:",
+        "list": {
+          "email": "Alamat email",
+          "name": "Nama depan dan nama belakang"
+        }
+      },
+      "usageData": {
+        "title": "Data Penggunaan",
+        "p1": "Data Penggunaan dikumpulkan secara otomatis saat menggunakan Layanan.",
+        "p2": "Data Penggunaan dapat mencakup informasi seperti alamat Protokol Internet Perangkat Anda (misalnya alamat IP), jenis peramban, versi peramban, halaman Layanan kami yang Anda kunjungi, waktu dan tanggal kunjungan Anda, waktu yang dihabiskan di halaman tersebut, pengidentifikasi perangkat unik, dan data diagnostik lainnya.",
+        "p3": "Saat Anda mengakses Layanan melalui perangkat seluler, Kami dapat mengumpulkan informasi tertentu secara otomatis, termasuk, namun tidak terbatas pada, jenis perangkat seluler yang Anda gunakan, ID unik perangkat seluler Anda, alamat IP perangkat seluler Anda, sistem operasi seluler Anda, jenis peramban Internet seluler yang Anda gunakan, pengidentifikasi perangkat unik, dan data diagnostik lainnya.",
+        "p4": "Kami juga dapat mengumpulkan informasi yang dikirimkan peramban Anda setiap kali Anda mengunjungi Layanan Kami atau saat Anda mengakses Layanan melalui perangkat seluler."
+      },
+      "tracking": {
+        "title": "Teknologi Pelacakan dan Cookie",
+        "p1": "Kami menggunakan Cookie dan teknologi pelacakan serupa untuk melacak aktivitas di Layanan Kami dan menyimpan informasi tertentu. Teknologi pelacakan yang Kami gunakan termasuk beacon, tag, dan skrip untuk mengumpulkan dan melacak informasi serta untuk meningkatkan dan menganalisis Layanan Kami.",
+        "items": {
+          "cookies": "Cookie atau Cookie Peramban. Cookie adalah file kecil yang ditempatkan di Perangkat Anda. Anda dapat menginstruksikan peramban Anda untuk menolak semua Cookie atau untuk menunjukkan kapan Cookie sedang dikirim. Namun, jika Anda tidak menerima Cookie, Anda mungkin tidak dapat menggunakan beberapa bagian dari Layanan kami.",
+          "webBeacons": "Web Beacon. Bagian tertentu dari Layanan kami dan email kami mungkin berisi file elektronik kecil yang dikenal sebagai web beacon (juga disebut sebagai clear gif, pixel tag, dan single-pixel gif) yang memungkinkan Perusahaan, misalnya, untuk menghitung pengguna yang telah mengunjungi halaman tersebut atau membuka email dan untuk statistik situs web terkait lainnya."
+        },
+        "p2": "Cookie dapat berupa Cookie \"Persisten\" atau \"Sesi\". Cookie Persisten tetap ada di komputer pribadi atau perangkat seluler Anda saat Anda offline, sedangkan Cookie Sesi dihapus segera setelah Anda menutup peramban web Anda.",
+        "p3": "Jika diharuskan oleh hukum, kami menggunakan cookie non-esensial (seperti cookie analitik, iklan, dan pemasaran ulang) hanya dengan persetujuan Anda. Anda dapat menarik atau mengubah persetujuan Anda kapan saja menggunakan alat preferensi cookie Kami (jika tersedia) atau melalui pengaturan peramban/perangkat Anda.",
+        "p4": "Kami menggunakan Cookie Sesi dan Persisten untuk tujuan yang ditetapkan di bawah ini:"
+      }
+    },
+    "cookies": {
+      "necessary": {
+        "title": "Cookie Wajib / Esensial",
+        "type": "Cookie Sesi",
+        "administeredBy": "Kami",
+        "purpose": "Cookie ini sangat penting untuk menyediakan layanan yang tersedia bagi Anda melalui Situs Web dan memungkinkan Anda menggunakan beberapa fiturnya. Mereka membantu mengautentikasi pengguna dan mencegah penggunaan akun pengguna secara curang."
+      },
+      "policyAcceptance": {
+        "title": "Cookie Kebijakan / Pemberitahuan Penerimaan Cookie",
+        "type": "Cookie Persisten",
+        "administeredBy": "Kami",
+        "purpose": "Cookie ini mengidentifikasi apakah pengguna telah menerima penggunaan cookie di Situs Web."
+      },
+      "functionality": {
+        "title": "Cookie Fungsionalitas",
+        "type": "Cookie Persisten",
+        "administeredBy": "Kami",
+        "purpose": "Cookie ini memungkinkan Kami untuk mengingat pilihan yang Anda buat saat Anda menggunakan Situs Web, seperti mengingat detail login atau preferensi bahasa Anda."
+      },
+      "moreInfo": "Untuk informasi lebih lanjut tentang cookie yang kami gunakan dan pilihan Anda mengenai cookie, silakan kunjungi Kebijakan Cookie kami atau bagian Cookie di Kebijakan Privasi Kami."
+    },
+    "useOfPersonalData": {
+      "title": "Penggunaan Data Pribadi Anda",
+      "purposes": {
+        "provideService": "Untuk menyediakan dan memelihara Layanan kami, termasuk untuk memantau penggunaan Layanan kami.",
+        "manageAccount": "Untuk mengelola Akun Anda: untuk mengelola pendaftaran Anda sebagai pengguna Layanan. Data Pribadi yang Anda berikan dapat memberi Anda akses ke berbagai fungsionalitas Layanan.",
+        "contractPerformance": "Untuk pelaksanaan kontrak: pengembangan, kepatuhan, dan pelaksanaan kontrak pembelian untuk produk, item, atau layanan yang telah Anda beli atau kontrak lainnya dengan Kami melalui Layanan.",
+        "contactYou": "Untuk menghubungi Anda melalui email, panggilan telepon, SMS, atau bentuk komunikasi elektronik setara lainnya mengenai pembaruan atau komunikasi informatif terkait fungsionalitas, produk, atau layanan yang dikontrak.",
+        "provideOffers": "Untuk memberi Anda berita, penawaran khusus, dan informasi umum tentang barang, layanan, dan acara lain yang Kami tawarkan yang serupa dengan yang telah Anda beli atau tanyakan.",
+        "manageRequests": "Untuk melayani dan mengelola permintaan Anda kepada Kami.",
+        "businessTransfers": "Untuk transfer bisnis: Kami dapat menggunakan Data Pribadi Anda untuk mengevaluasi atau melakukan merger, divestasi, restrukturisasi, reorganisasi, pembubaran, atau penjualan atau transfer lainnya dari sebagian atau seluruh aset Kami.",
+        "otherPurposes": "Untuk tujuan lain: Kami dapat menggunakan informasi Anda untuk tujuan lain, seperti analisis data, mengidentifikasi tren penggunaan, dan menentukan efektivitas kampanye promosi kami."
+      },
+      "sharing": {
+        "serviceProviders": "Dengan Penyedia Layanan: Kami dapat membagikan Data Pribadi Anda dengan Penyedia Layanan untuk memantau dan menganalisis penggunaan Layanan kami, untuk menghubungi Anda.",
+        "businessTransfers": "Untuk transfer bisnis: Kami dapat membagikan atau mentransfer Data Pribadi Anda sehubungan dengan, atau selama negosiasi, merger, penjualan aset Perusahaan, pembiayaan, atau akuisisi seluruh atau sebagian bisnis Kami ke perusahaan lain.",
+        "affiliates": "Dengan Afiliasi: Kami dapat membagikan Data Pribadi Anda dengan afiliasi Kami, dalam hal ini kami akan mewajibkan afiliasi tersebut untuk menghormati Kebijakan Privasi ini.",
+        "businessPartners": "Dengan mitra bisnis: Kami dapat membagikan Data Pribadi Anda dengan mitra bisnis Kami untuk menawarkan produk, layanan, atau promosi tertentu kepada Anda.",
+        "otherUsers": "Dengan pengguna lain: Jika Layanan Kami menawarkan area publik, saat Anda berbagi Data Pribadi atau berinteraksi di area publik dengan pengguna lain, informasi tersebut dapat dilihat oleh semua pengguna.",
+        "withConsent": "Dengan persetujuan Anda: Kami dapat mengungkapkan Data Pribadi Anda untuk tujuan lain apa pun dengan persetujuan Anda."
+      }
+    },
+    "retention": {
+      "title": "Penyimpanan Data Pribadi Anda",
+      "policy": "Perusahaan akan menyimpan Data Pribadi Anda hanya selama diperlukan untuk tujuan yang ditetapkan dalam Kebijakan Privasi ini. Kami akan menyimpan dan menggunakan Data Pribadi Anda sejauh yang diperlukan untuk mematuhi kewajiban hukum kami.",
+      "general": "Jika memungkinkan, Kami menerapkan periode penyimpanan yang lebih singkat dan/atau mengurangi identifikasi dengan menghapus, menggabungkan, atau menganonimkan data.",
+      "categories": {
+        "accountInformation": {
+          "title": "Informasi Akun",
+          "userAccounts": "Akun Pengguna: disimpan selama masa hubungan akun Anda ditambah hingga 24 bulan setelah penutupan akun untuk menangani masalah pasca-pemutusan atau menyelesaikan perselisihan."
+        },
+        "supportData": {
+          "title": "Data Dukungan Pelanggan",
+          "supportTickets": "Tiket dukungan dan korespondensi: hingga 24 bulan dari tanggal penutupan tiket.",
+          "chatTranscripts": "Transkrip obrolan: hingga 24 bulan untuk tujuan jaminan kualitas dan pelatihan staf."
+        },
+        "usageData": {
+          "title": "Data Penggunaan",
+          "analytics": "Data analitik situs web (cookie, alamat IP): hingga 24 bulan dari tanggal pengumpulan.",
+          "serverLogs": "Log server: hingga 24 bulan untuk tujuan pemantauan keamanan dan pemecahan masalah."
+        }
+      },
+      "extendedRetention": {
+        "legalObligation": "Kewajiban hukum: Kami diharuskan oleh hukum untuk menyimpan data tertentu (misalnya, catatan keuangan untuk otoritas pajak).",
+        "legalClaims": "Klaim hukum: Data diperlukan untuk menetapkan, melaksanakan, atau membela klaim hukum.",
+        "userRequest": "Permintaan eksplisit Anda: Anda meminta Kami untuk menyimpan informasi tertentu.",
+        "technicalLimitations": "Keterbatasan teknis: Data ada dalam sistem cadangan yang dijadwalkan untuk penghapusan rutin."
+      },
+      "postRetention": {
+        "deletion": "Penghapusan: Data Pribadi dihapus dari sistem Kami dan tidak lagi diproses secara aktif.",
+        "backupRetention": "Penyimpanan cadangan: Salinan sisa mungkin tetap berada dalam cadangan terenkripsi untuk periode terbatas.",
+        "anonymization": "Anonimisasi: Kami mengubah Data Pribadi menjadi data statistik anonim yang tidak dapat dikaitkan kembali dengan Anda."
+      }
+    },
+    "transfer": {
+      "title": "Transfer Data Pribadi Anda",
+      "content": "Informasi Anda, termasuk Data Pribadi, dapat ditransfer ke dan dipelihara di komputer yang berada di luar yurisdiksi Anda di mana undang-undang perlindungan data mungkin berbeda. Kami memastikan transfer tunduk pada pengamanan yang tepat."
+    },
+    "deleteData": {
+      "title": "Hapus Data Pribadi Anda",
+      "rights": "Anda memiliki hak untuk menghapus atau meminta Kami membantu menghapus Data Pribadi yang telah Kami kumpulkan tentang Anda.",
+      "serviceOptions": "Layanan Kami mungkin memberi Anda kemampuan untuk menghapus informasi tertentu tentang Anda dari dalam Layanan.",
+      "accountManagement": "Anda dapat memperbarui, mengubah, atau menghapus informasi Anda kapan saja dengan masuk ke Akun Anda dan mengunjungi bagian pengaturan akun.",
+      "contact": "Anda juga dapat menghubungi Kami untuk meminta akses ke, memperbaiki, atau menghapus Data Pribadi apa pun yang telah Anda berikan kepada Kami.",
+      "note": "Kami mungkin perlu menyimpan informasi tertentu jika kami memiliki kewajiban hukum atau dasar hukum untuk melakukannya."
+    },
+    "disclosure": {
+      "title": "Pengungkapan Data Pribadi Anda",
+      "businessTransactions": "Jika Perusahaan terlibat dalam merger, akuisisi, atau penjualan aset, Data Pribadi Anda mungkin dialihkan. Kami akan memberikan pemberitahuan sebelum hal itu terjadi.",
+      "lawEnforcement": "Perusahaan mungkin diminta untuk mengungkapkan Data Pribadi Anda jika diharuskan oleh hukum atau sebagai tanggapan atas permintaan yang sah oleh otoritas publik.",
+      "legalRequirements": [
+        "Mematuhi kewajiban hukum",
+        "Melindungi dan membela hak atau properti Perusahaan",
+        "Mencegah atau menyelidiki kemungkinan kesalahan sehubungan dengan Layanan",
+        "Melindungi keselamatan pribadi Pengguna Layanan atau publik",
+        "Melindungi dari tanggung jawab hukum"
+      ]
+    },
+    "security": {
+      "title": "Keamanan Data Pribadi Anda",
+      "content": "Meskipun Kami berusaha menggunakan sarana yang wajar secara komersial untuk melindungi Data Pribadi Anda, Kami tidak dapat menjamin keamanan mutlaknya."
+    },
+    "children": {
+      "title": "Privasi Anak-anak",
+      "content1": "Layanan Kami tidak ditujukan kepada siapa pun yang berusia di bawah 16 tahun. Kami tidak secara sengaja mengumpulkan informasi identitas pribadi dari siapa pun yang berusia di bawah 16 tahun.",
+      "content2": "Jika Kami menyadari bahwa Kami telah mengumpulkan Data Pribadi dari siapa pun yang berusia di bawah 16 tahun tanpa verifikasi izin orang tua, Kami akan mengambil langkah-langkah untuk menghapus informasi tersebut."
+    },
+    "links": {
+      "title": "Tautan ke Situs Web Lain",
+      "content": "Layanan Kami mungkin berisi tautan ke situs web lain yang tidak dioperasikan oleh Kami. Kami sangat menyarankan Anda untuk meninjau Kebijakan Privasi dari setiap situs yang Anda kunjungi."
+    },
+    "changes": {
+      "title": "Perubahan pada Kebijakan Privasi ini",
+      "content": "Kami dapat memperbarui Kebijakan Privasi Kami dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting Kebijakan Privasi baru di halaman ini."
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "email": "cs@aplikasiku.web.id"
+    }
   }
 }

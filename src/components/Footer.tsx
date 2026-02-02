@@ -1,19 +1,19 @@
-import Link from "next/link";
+import Link from 'next/link';
 // import Image from "next/image";
-import React from "react";
-import { Container } from "@/components/Container";
-import { MapPinIcon } from "@heroicons/react/16/solid";
+import React from 'react';
+import { Container } from '@/components/Container';
+import { MapPinIcon } from '@heroicons/react/16/solid';
 
 export function Footer() {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
-  const legal = ["Terms", "Privacy", "Legal"];
+  const navigation = ['Company', 'Services', 'FAQ'];
+  const legal = ['Terms-Services', 'Privacy-Policy'];
   return (
     <div className="relative">
       <Container>
         <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-gray-700 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
-              {" "}
+              {' '}
               <Link
                 href="/"
                 className="flex items-center space-x-2 text-2xl font-medium dark:text-gray-100"
@@ -26,7 +26,7 @@ export function Footer() {
                   className="w-8"
                 /> */}
                 <span>
-                  PT. Giga Berkah{" "}
+                  PT. Giga Berkah{' '}
                   <span className="text-indigo-500">Teknologi</span>
                 </span>
               </Link>
@@ -82,7 +82,11 @@ export function Footer() {
               {navigation.map((item, index) => (
                 <Link
                   key={index}
-                  href="/"
+                  href={
+                    item.toLowerCase() === 'company'
+                      ? '#/'
+                      : `#${item.toLowerCase()}`
+                  }
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-700"
                 >
                   {item}
@@ -95,10 +99,10 @@ export function Footer() {
               {legal.map((item, index) => (
                 <Link
                   key={index}
-                  href="/"
+                  href={item.toLocaleLowerCase()}
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-700"
                 >
-                  {item}
+                  {item.replace('-', ' & ')}
                 </Link>
               ))}
             </div>

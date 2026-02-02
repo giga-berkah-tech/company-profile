@@ -1,34 +1,34 @@
-"use client";
+'use client';
 
-import { Container } from "@/components/Container";
-import { Hero } from "@/components/Hero";
-import { SectionTitle } from "@/components/SectionTitle";
-import { Benefits } from "@/components/Benefits";
-import { Video } from "@/components/Video";
-import { Testimonials } from "@/components/Testimonials";
-import { Faq } from "@/components/Faq";
-import { Cta } from "@/components/Cta";
-import { benefitOne, benefitTwo } from "@/resources/data";
+import { Container } from '@/components/Container';
+import { Hero } from '@/components/Hero';
+import { SectionTitle } from '@/components/SectionTitle';
+import { Benefits } from '@/components/Benefits';
+import { Video } from '@/components/Video';
+import { Testimonials } from '@/components/Testimonials';
+import { Faq } from '@/components/Faq';
+import { Cta } from '@/components/Cta';
+import { benefitOne, benefitTwo } from '@/resources/data';
 
-import { useTranslation } from "next-export-i18n";
+import { useTranslation } from 'next-export-i18n';
 
 export default function Home() {
   const { t } = useTranslation();
   return (
     <Container>
-      <div className="mt-24"></div>
-      <Hero />
-      <SectionTitle
-        preTitle={t("home.services.preTitle")}
-        title={t("home.services.title")}
-      >
-        {t("home.services.description")}
-      </SectionTitle>
+      <div className="mt-24">
+        <Hero />
+        <SectionTitle
+          preTitle={t('home.services.preTitle')}
+          title={t('home.services.title')}
+          section="services"
+        >
+          {t('home.services.description')}
+        </SectionTitle>
+        <Benefits data={benefitOne} />
+        <Benefits imgPos="right" data={benefitTwo} />
 
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
-
-      {/* <SectionTitle 
+        {/* <SectionTitle 
         preTitle={t('whoWeAre.preTitle')} 
         title={t('whoWeAre.title')}
       >
@@ -37,21 +37,23 @@ export default function Home() {
 
       <Video videoId="fZ0D0cnR88E" /> */}
 
-      {/* <SectionTitle
+        {/* <SectionTitle
         preTitle={t('testimonials.preTitle')}
         title={t('testimonials.title')}
       >
       </SectionTitle> */}
 
-      {/* <Testimonials /> */}
+        {/* <Testimonials /> */}
 
-      <SectionTitle
-        preTitle={t("home.faq.preTitle")}
-        title={t("home.faq.title")}
-      ></SectionTitle>
+        <SectionTitle
+          preTitle={t('home.faq.preTitle')}
+          title={t('home.faq.title')}
+          section="faq"
+        ></SectionTitle>
 
-      <Faq />
-      <Cta />
+        <Faq />
+        <Cta />
+      </div>
     </Container>
   );
 }

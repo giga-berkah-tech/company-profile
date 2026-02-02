@@ -1,59 +1,51 @@
-"use client";
-import Link from "next/link";
-import ThemeChanger from "./DarkSwitch";
-import Image from "next/image";
-import { Disclosure } from "@headlessui/react";
+'use client';
+import Link from 'next/link';
+import ThemeChanger from './DarkSwitch';
+import Image from 'next/image';
+import { Disclosure } from '@headlessui/react';
 import {
   useTranslation,
   LanguageSwitcher,
   LinkWithLocale,
-} from "next-export-i18n";
+} from 'next-export-i18n';
 
 export const Navbar = () => {
   const { t } = useTranslation();
 
   const navigation = [
-    { name: t("navbar.product"), url: "/product" },
-    { name: t("navbar.services"), url: "/services" },
-    { name: t("navbar.company"), url: "/company" },
-    { name: t("navbar.blog"), url: "/blog" },
+    { name: t('navbar.services'), url: '/#services' },
+    { name: t('navbar.company'), url: '/#company' },
+    { name: 'FAQ', url: '/#faq' },
   ];
 
   return (
     <div className="w-full fixed bg-opacity-75 dark:bg-opacity-75 bg-white dark:bg-slate-900 shadow-md z-50  backdrop-blur">
       <nav className="container relative flex flex-wrap items-center justify-between px-8 py-6 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
-        <LinkWithLocale href="/">
+        <Link href="/">
           <span className="flex items-center space-x-2 text-2xl font-medium dark:text-white">
             <span>
               <img
                 src="/img/logo.png"
                 width="32"
-                alt={t("navbar.logoAlt")}
+                alt={t('navbar.logoAlt')}
                 height="32"
                 className="w-8"
               />
             </span>
             <div className="md:text-2xl text-xs flex flex-col md:flex-row">
-              <span>{t("navbar.companyName1")}</span>
+              <span>{t('navbar.companyName1')}</span>
               <span className="text-indigo-500">
-                {t("navbar.companyName2")}
+                {t('navbar.companyName2')}
               </span>
             </div>
           </span>
-        </LinkWithLocale>
+        </Link>
 
         {/* get started  */}
         <div className="gap-3 nav__item mr-2 flex ml-auto lg:ml-0 lg:order-2 ">
           <ThemeChanger />
-          <div className="hidden mr-3 lg:flex nav__item">
-            <LinkWithLocale
-              href="/contact"
-              className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
-            >
-              {t("navbar.getStarted")}
-            </LinkWithLocale>
-          </div>
+          <div className="hidden mr-3 lg:flex nav__item"></div>
           <div className="flex items-center space-x-1">
             <div
               className="px-3 py-1 text-sm rounded-s-md transition-all duration-200 ease-in-out 
@@ -79,7 +71,7 @@ export const Navbar = () => {
           {({ open }) => (
             <>
               <Disclosure.Button
-                aria-label={t("navbar.toggleMenu")}
+                aria-label={t('navbar.toggleMenu')}
                 className="px-2 py-1 text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-gray-700"
               >
                 <svg
@@ -106,20 +98,20 @@ export const Navbar = () => {
               <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                 <>
                   {navigation.map((item, index) => (
-                    <LinkWithLocale
+                    <Link
                       key={index}
                       href={item.url}
                       className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
                     >
                       {item.name}
-                    </LinkWithLocale>
+                    </Link>
                   ))}
-                  <LinkWithLocale
+                  {/* <LinkWithLocale
                     href="/"
                     className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
                   >
-                    {t("navbar.getStarted")}
-                  </LinkWithLocale>
+                    {t('navbar.getStarted')}
+                  </LinkWithLocale> */}
                 </>
               </Disclosure.Panel>
             </>
